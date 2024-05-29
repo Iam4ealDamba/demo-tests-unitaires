@@ -16,6 +16,9 @@ public final class StringUtils {
 	 */
 	public static Integer levenshteinDistance(CharSequence lhs, CharSequence rhs) {
 		try {
+			lhs = lhs.toString().toLowerCase();
+			rhs = rhs.toString().toLowerCase();
+
 			int len0 = lhs.length() + 1;
 			int len1 = rhs.length() + 1;
 
