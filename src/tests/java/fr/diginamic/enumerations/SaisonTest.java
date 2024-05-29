@@ -1,11 +1,7 @@
 package fr.diginamic.enumerations;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import fr.diginamic.enumerations.Saison;
 
 public class SaisonTest {
   @Test
